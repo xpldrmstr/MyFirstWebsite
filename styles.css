@@ -1,0 +1,92 @@
+        body {
+            background-image: url(/assets/topography.png);
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0%;
+            overflow-y: scroll;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        header {
+            background-color: #333333;
+            max-height: 50px;
+        }
+        
+        .logo {
+            padding: 10px 0px
+        }
+        
+        nav {
+            float: right;
+        }
+        
+        nav ul {
+            margin: 0;
+            padding: 10px 0;
+            list-style: none;
+        }
+        
+        nav li {
+            display: inline-block;
+            margin-left: 30px;
+            text-transform: uppercase;
+            position: relative;
+        }
+        
+        nav a {
+            color: #ff0099;
+            text-decoration: none;
+            font-size: 24px;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .name {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: left;
+            font-size: 30px;
+            margin-left: 10%;
+            margin-top: 5%
+        }
+        
+        .separation {
+            text-align: center;
+        }
+        
+        .pink {
+            color: #ff0099;
+            font-size: 25px;
+            margin-left: 10%;
+        }
+        
+        .p1 {
+            text-align: left;
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size: 24px;
+            font-weight: bolder;
+            line-height: 1.6;
+        }
+        
+        .title {
+            font-size: 25px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        
+        .article {
+            text-align: left;
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size: 24px;
+            line-height: 1.6;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .foot {
+            text-align: center;
+            margin-top: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
